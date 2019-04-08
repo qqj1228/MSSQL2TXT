@@ -1,0 +1,26 @@
+<Config>
+  <Main>
+    <Interval>300</Interval>
+    <RemoteAddress>\\192.168.3.65\share\txt\</RemoteAddress>
+  </Main>
+  <DB>
+    <IP>127.0.0.1</IP>
+    <Port>1433</Port>
+    <UserID>sa</UserID>
+    <Pwd>1228</Pwd>
+    <ID>ID</ID>
+    <VIN>VIN</VIN>
+  </DB>
+  <ExDB>
+    <DB_0>
+      <Name>EOL_FOTON_ABS</Name>
+      <LastID>0</LastID>
+      <TableList>ABS_Valve,Horn_Test,Pedal_Test,Speed_Check,Static_ABS</TableList>
+    </DB_0>
+    <DB_1>
+      <Name>EOL_FOTON_LS</Name>
+      <LastID>0</LastID>
+      <TableList>Brake_Test</TableList>
+    </DB_1>
+  </ExDB>
+</Config>
